@@ -1,2 +1,4 @@
+<meta charset="UTF-8">
+
 # Portf-lio
-Repositório do projeto ONE, Challenge 3 Portfólio
+Challenge ONE | Front End - Portfólio
