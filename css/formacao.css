@@ -1,0 +1,113 @@
+.formacao {
+    display: flex;
+    flex-direction: column;
+    background: #eaf2fd;
+}
+
+.formacao-titulo-principal {
+    font-size: 32px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+
+    margin-top: 82px;
+}
+
+.formacao-experiencias {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    margin-left: 412px;
+    margin-top: 33px;
+    margin-bottom: 82px;
+}
+
+.formacao-experiencias-primeira {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.formacao-experiencias-segundo {
+    display: flex;
+}
+
+.formacao-fundo-imagem {
+    background: #FFFFFF;
+    width: 128px;
+    height: 128px;
+}
+
+.formacao-experiencias-imagem {
+    margin: 16px;
+    margin-top: 40px;
+}
+
+.formacao-experiencias-informacao {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+.formacao-experiencias-titulo {
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 22px;
+
+    height: 26px;
+    margin-top: 8px;
+}
+
+.formacao-experiencias-conteudo {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 22px;
+
+    height: 45px;
+
+}
+
+.formacao-experiencias-conteudo-ano {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 20px;
+
+    height: 30px;
+
+    margin-top: 8px;
+}
+
+@media(max-width: 1000px) {
+    .formacao-experiencias {
+        margin-left: 90px;
+    }
+
+    .formacao-experiencias-titulo {
+        font-size: 20px;
+    }
+
+    .formacao-experiencias-conteudo {
+        font-size: 16px;
+    }
+
+    .formacao-experiencias-conteudo-ano {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .formacao-experiencias {
+        margin-left: 16px;
+    }
+
+    .formacao-experiencias-titulo {
+        font-size: 16px;
+    }
+
+    .formacao-experiencias-conteudo {
+        font-size: 14px;
+    }
+
+    .formacao-experiencias-conteudo-ano {
+        font-size: 14px;
+    }
+}

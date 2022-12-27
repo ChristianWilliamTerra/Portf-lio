@@ -1,0 +1,92 @@
+.habilidades {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 88px;
+    margin-bottom: 88px;
+}
+
+.skills,
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 88px;
+}
+
+.skills-titulo,
+.hobbies-titulo {
+    font-size: 32px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+
+    margin-bottom: 32px;
+}
+
+.skills-lista,
+.hobbies-lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.skills-lista-fundo,
+.hobbies-lista-fundo {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    background: #ffffff;
+    width: 176px;
+    height: 176px;
+
+    padding-left: 16px;
+    margin-right: 16px;
+
+}
+
+.skills-lista-nome,
+.hobbies-lista-nome {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 16px;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+.skills-lista-icone,
+.hobbies-lista-icone {
+    color: #2A7AE4;
+    margin-bottom: 8px;
+}
+
+@media(max-width: 1000px) {
+    .habilidades {
+        justify-content: left;
+        margin-bottom: 0px;
+    }
+
+    .skills-lista-fundo,
+    .hobbies-lista-fundo {
+        width: 146px;
+        height: 146px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .skills,
+    .hobbies {
+        margin-bottom: 32px;
+    }
+
+    .skills-lista, .hobbies-lista {
+        flex-wrap: wrap;
+    }
+    
+    .skills-lista-fundo,
+    .hobbies-lista-fundo {
+        margin-bottom: 32px;
+    }
+
+}

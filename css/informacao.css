@@ -1,0 +1,127 @@
+.informacao {
+    margin-left: 122px;
+    margin-top: 156px;
+}
+
+.informacao-titulo {
+    font-size: 52px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.informacao-conteudo {
+    width: 600px;
+
+    font-size: 22px;
+    margin-top: 24px;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+.informacao-botoes {
+    display: flex;
+    flex-direction: row;
+
+    font-family: 'Work Sans', sans-serif;
+}
+
+.botoes {
+    margin-top: 40px;
+    margin-left: 64px;
+
+    width: 202px;
+    height: 51px;
+}
+
+.informacao-botao-primario {
+    background: #2A7AE4;
+    border: none;
+
+    color: #FFFFFF;
+    font-size: 16px;
+
+}
+
+.informacao-botao-primario:hover {
+    cursor: pointer;
+    background: #2769c0;
+}
+
+.informacao-botao-primario:active {
+    background: #2A7AE4;
+}
+
+.informacao-botao-secundario {
+    background: none;
+    border: 1px solid #2A7AE4;
+
+    color: #2A7AE4;
+    font-size: 16px;
+}
+
+.informacao-botao-secundario:hover {
+    cursor: pointer;
+
+    background: #ffffff;
+}
+
+.informacao-botao-secundario:active {
+    background: #f5f5f5;
+}
+
+
+@media(max-width: 1000px) {
+    .informacao {
+        margin-left: 4rem;
+        margin-top: 156px;
+    }
+
+    .informacao-titulo {
+        font-size: 30px;
+    }
+
+    .informacao-conteudo {
+        font-size: 17px;
+        margin-top: 24px;
+    
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .botoes {
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .informacao {
+        margin-top: 10px;
+        margin-left: 16px;
+    }
+
+    .informacao-botoes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .botoes {
+        margin-left: 0px;
+
+        width: 202px;
+        height: 50;
+    }
+
+    .informacao-botao-secundario {
+       margin-top: 16px;
+    }
+
+    .informacao-titulo {
+        font-size: 22px;
+    }
+
+    .informacao-conteudo {
+        width: 300px;
+        font-size: 14px;
+        margin-top: 16px;
+    
+        font-family: 'Open Sans', sans-serif;
+    }
+}
