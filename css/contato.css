@@ -58,6 +58,7 @@
 
 .contato-erro {
     display: none;
+    width: 300px;
 }
 
 .contato-campo-invalido .contato-erro {
@@ -100,6 +101,7 @@
 
     margin-right: 491px;
     margin-top: 32px;
+    margin-bottom: 32px;
 
     height: 51px;
     width: 165px;
