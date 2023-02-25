@@ -22,12 +22,12 @@
     margin-bottom: 82px;
 }
 
-.formacao-experiencias-primeira {
+.formacao-experiencias-primeira, .formacao-experiencias-segundo {
     display: flex;
     margin-bottom: 16px;
 }
 
-.formacao-experiencias-segundo {
+.formacao-experiencias-terceiro {
     display: flex;
 }
 
